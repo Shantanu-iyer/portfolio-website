@@ -170,4 +170,10 @@ a:hover{
   color:#EAF6F6;
   font-size: 0.90rem;
   padding: 20px 0px;
+  
+  @media only screen and (max-width: 600px) {
+    #header {
+        background-image: url(background.png);
+        margin-right: 40px;
+
 }
